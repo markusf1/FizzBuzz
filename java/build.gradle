@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'eclipse'
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+mainClassName = 'de.friedetzki.fizzbuzz.FizzBuzz'
+version = '1.0.0'
+
+compileJava.options.encoding = 'UTF-8'

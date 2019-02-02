@@ -14,6 +14,15 @@ git clone https://github.com/mfriedetzki/FizzBuzz
 
 ### 2. Select your programming language, initialize project and run it
 
+#### for Java with Eclipse
+
+_Requirements: Java JDK 8 or higher, Eclipse IDE_
+
+```sh
+cd FizzBuzz/java
+./gradlew eclipse
+./gradlew run
+```
 #### for Javascript
 
 _Requirements: node (with npm)_
@@ -25,6 +34,10 @@ npm start
 ```
 
 ### 3. Solve the FizzBuzz test
+
+#### for Java
+
+Write your solution into the `main` method of `FizzBuzz/java/src/main/java/FizzBuzz.java`. 
 
 #### for Javascript
 
